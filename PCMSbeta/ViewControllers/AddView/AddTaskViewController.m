@@ -104,6 +104,9 @@
     _locationManager.delegate = self;
     _locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     _locationManager.distanceFilter = 500.0f;
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
+        [_locationManager requestAlwaysAuthorization];
+    }
     [_locationManager startUpdatingLocation];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(showAlertWhenEditing:)
