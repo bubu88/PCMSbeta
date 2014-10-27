@@ -11,3 +11,9 @@ AppStore已上架应用《销管》@天津米索软件有限公司 designed by H
 现场数据采集、反馈等工作并与后台系统实时的数据交互等功能。
 
 联系电话：022-58989555
+
+
+License
+=======
+
+These specifications and CocoaPods are available under the [MIT license](http://opensource.org/licenses/mit-license.php).
